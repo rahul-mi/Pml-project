@@ -1,0 +1,2 @@
+I first opened the training data and glanced the columns. I found that there are 160 columns. Many columns are with empty data or non numerical data or having #DIV/0!.
+I removed these by choosing columns without any NA values and columns with non-zero variance. This reduced the number of columns to 53. Now I used the prediction model of random forests and found the accuracy of the model > 99% on the validation set. And therefore chose this to classify the 20 data points in the testing set as well.
