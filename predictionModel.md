@@ -37,8 +37,8 @@ classify
 
 
 Confusion Matrix and Statistics
-          
-Prediction    A    B    C    D    E
+Prediction   
+              A    B    C    D    E
 
          A 1674    6    0    0    0
 
@@ -68,15 +68,3 @@ Statistics by Class:
 Sensitivity            1.0000   0.9921   0.9932   0.9886   0.9935
 
 Specificity            0.9986   0.9985   0.9967   0.9990   1.0000
-
-Pos Pred Value         0.9964   0.9938   0.9845   0.9948   1.0000
-
-Neg Pred Value         1.0000   0.9981   0.9986   0.9978   0.9985
-
-Prevalence             0.2845   0.1935   0.1743   0.1638   0.1839
-
-Detection Rate         0.2845   0.1920   0.1732   0.1619   0.1827
-
-Detection Prevalence   0.2855   0.1932   0.1759   0.1628   0.1827
-
-Balanced Accuracy      0.9993   0.9953   0.9949   0.9938   0.9968
