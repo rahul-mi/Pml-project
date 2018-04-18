@@ -1,4 +1,5 @@
 
+
 I first opened the training data and glanced the columns. I found that there are 160 columns. Many columns are with empty data or 
 
 non-numerical data or having #DIV/0!. I removed these by choosing columns without any NA values and columns with non-zero variance. 
@@ -43,10 +44,10 @@ confusionMatrix(modPerf,validation$classe)
 classify <- predict(modFit , newdata = testing) 
 classify
 ```
+
+
 Confusion Matrix and Statistics
-
-          Reference
-
+          
 Prediction    A    B    C    D    E
 
          A 1674    6    0    0    0
@@ -59,12 +60,7 @@ Prediction    A    B    C    D    E
 
          E    0    0    0    0 1075
 
-
-
 Overall Statistics
-
-                                         
-
                Accuracy : 0.9942         
 
                  95% CI : (0.9919, 0.996)
@@ -73,17 +69,9 @@ Overall Statistics
 
     P-Value [Acc > NIR] : < 2.2e-16      
 
-                                         
-
-                  Kappa : 0.9927         
-
- Mcnemar's Test P-Value : NA             
-
-
+                   Kappa : 0.9927         
 
 Statistics by Class:
-
-
 
                      Class: A Class: B Class: C Class: D Class: E
 
