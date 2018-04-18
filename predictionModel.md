@@ -1,14 +1,4 @@
-
-
-I first opened the training data and glanced the columns. I found that there are 160 columns. Many columns are with empty data or 
-
-non-numerical data or having #DIV/0!. I removed these by choosing columns without any NA values and columns with non-zero variance. 
-
-This reduced the number of columns to 53. I also created a set of 30% data from training set for cross validation later. 
-
-After that I used the prediction model of random forests and found the accuracy of the model > 99% and therefore chose this to classify 
-
-the 20 data points in the testing set as well. I got 100% answers correct in the Predction quiz.
+I first opened the training data and glanced the columns. I found that there are 160 columns. Many columns are with empty data or non-numerical data or having #DIV/0!. I removed these by choosing columns without any NA values and columns with non-zero variance. This reduced the number of columns to 53. I also created a set of 30% data from training set for cross validation later. After that I used the prediction model of random forests and found the accuracy of the model > 99% and therefore chose this to classify the 20 data points in the testing set as well. I got 100% answers correct in the Predction quiz.
 
 ```
 library(caret);
