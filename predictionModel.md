@@ -37,34 +37,22 @@ classify
 
 
 Confusion Matrix and Statistics
-Prediction   
-              A    B    C    D    E
 
+             A    B    C    D    E
          A 1674    6    0    0    0
-
          B    0 1130    7    0    0
-
          C    0    3 1019   11    2
-
          D    0    0    0  953    5
-
          E    0    0    0    0 1075
 
 Overall Statistics
                Accuracy : 0.9942         
-
                  95% CI : (0.9919, 0.996)
-
     No Information Rate : 0.2845         
-
     P-Value [Acc > NIR] : < 2.2e-16      
+                  Kappa : 0.9927         
 
-                   Kappa : 0.9927         
-
-Statistics by Class:
-
-                     Class: A Class: B Class: C Class: D Class: E
-
+Statistics by Class
+                     Class A Class B Class C Class D Class E
 Sensitivity            1.0000   0.9921   0.9932   0.9886   0.9935
-
 Specificity            0.9986   0.9985   0.9967   0.9990   1.0000
